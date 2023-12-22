@@ -1,0 +1,127 @@
+/* Stile per l'header */
+header {
+  background-color: #ffc017;
+  color: #fff;
+  padding: 10px;
+}
+
+/* Stile per la navbar */
+header nav {
+  background-color: #ffc017;
+}
+
+/* Stile per il contenitore della navbar */
+.navbar-container {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+/* Stile per il logo */
+.logo img {
+  padding-left: 30px;
+  width: 150px;
+  height: auto;
+}
+
+/* Stile per il contenitore dei pulsanti nella navbar */
+.buttons {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+/* Stile per i pulsanti nella navbar */
+.buttons button {
+  margin-left: 10px;
+  padding: 8px 12px;
+  font-size: 14px;
+  color: #191919;
+  font-family: sans-serif;
+  border: none;
+  cursor: pointer;
+  background-color: #ffc017;
+}
+
+/* Sposta il contenitore dei pulsanti completamente a sinistra */
+.navbar-container .buttons {
+  margin-left: auto;
+}
+
+/* Stile per il pulsante nero */
+.buttons button.black {
+  font-family: sans-serif;
+  background-color: #191919;
+  border-radius: 20px;
+  color: white;
+}
+
+/* Stile per l'hr */
+hr {
+  margin: 0;
+  border: 0;
+  height: 0.8px;
+  background-color: #333;
+}
+
+/* Stile per h1 */
+h1 {
+  background-color: #ffc017;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 4em;
+  margin-left: 20px;
+}
+
+/* Stile per p */
+p {
+  background-color: #ffc017;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.8em;
+  margin-left: 20px;
+}
+
+/* Stile per il pulsante generico */
+button {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #191919;
+  border-radius: 20px;
+  color: white;
+  font-size: 1.4em;
+  display: block;
+  margin-top: 10px;
+}
+
+/* Stile per il blocco one */
+.one {
+  height: 380px;
+  background-color: #ffc017;
+}
+
+/* Stile per l'hr2 */
+.hr2 {
+  margin-top: 247px;
+  border: 0;
+  height: 0.8px;
+  background-color: #333;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+/* Stili per i div specifici */
+.tom,
+.arthur,
+.cooper,
+.frank {
+  width: calc(
+    33.33% - 10px
+  ); /* Calcolo della larghezza con margine tra i div */
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+  box-sizing: border-box;
+}
